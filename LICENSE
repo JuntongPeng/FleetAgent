@@ -1,0 +1,56 @@
+FleetAgent licenses
+
+1. Project-owned source code: MIT
+
+The MIT grant below applies to project-owned source code, not to the dataset
+or underlying nuScenes material.
+
+MIT License
+
+Copyright (c) 2026 FleetAgent and VecEval contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+2. VecEval data: CC BY-NC-SA 4.0
+
+VecEval dataset contributions
+Copyright (c) 2026 FleetAgent and VecEval contributors
+
+The contributors' rights in VecEval dataset contributions, including added
+annotations and modifications of the derived dataset, are licensed under
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+
+The full license is incorporated by reference and is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+Underlying nuScenes content retains its applicable upstream rights and is
+subject to the nuScenes Dataset Terms of Use, including stated exceptions:
+https://www.nuscenes.org/terms-of-use
+
+This notice does not supersede upstream terms or grant rights the
+contributors do not hold. Attribution and changes are described below.
+The MIT code license does not cover these data.
+
+Attribution
+
+VecEval accompanies *FleetAgent: Teleoperation Assistant for Autonomous Fleets via Vectorized V2N Messages*, by Juntong Peng, Qi Chen, Deyuan Qu, Takayuki Shimizu, Yaobin Chen and Ziran Wang. Author affiliations and the internship attribution appear in README.md.
+
+Underlying data: *nuScenes: A multimodal dataset for autonomous driving*, Holger Caesar, Varun Bankiti, Alex H. Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan and Oscar Beijbom, CVPR 2020. The nuScenes providers retain their applicable rights and notices.
+
+VecEval adds candidate-plan language annotations. Subsequent review corrected supported annotation errors and aligned analysis with vector coordinates and timing. The JSON files retain plan IDs, planning coordinates, sample tokens and all five annotation fields. No endorsement by the nuScenes providers is asserted.
